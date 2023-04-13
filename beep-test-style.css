@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .level {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .time {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    outline: none;
+  }
+  button:disabled {
+    background-color: #aaa;
+    cursor: default;
+  }
+  #level-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  #level-list li {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  #level-list li.completed {
+    color: #28a745;
+  }
+  #level-list li.current {
+    color: #007bff;
+  }
+  #level-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #level-list li {
+    margin-bottom: 5px;
+  }
+
+  .completed {
+    color: green;
+    font-weight: bold;
+  }
